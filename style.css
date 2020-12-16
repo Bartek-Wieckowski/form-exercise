@@ -18,8 +18,15 @@ body {
 h1 {
   text-align: center;
 }
+.form{
+    margin: auto;
+}
 .div {
-  padding: 10px;
+    
+    
+}
+.div__group{
+
 }
 .form {
 }
@@ -37,4 +44,10 @@ h1 {
 .colors__item {
   display: inline;
   padding: 15px;
+}
+.story{
+    width:500px;
+    height:500px;
+    color:white;
+    background-color: black;
 }

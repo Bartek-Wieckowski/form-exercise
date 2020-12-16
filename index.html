@@ -26,79 +26,99 @@
             </div>
             <div class="div">
                 <label>Please add your foto
-                    <input class="form__item-number" type="file"id="photofile" name="photofile">
+                    <input class="form__item-number" type="file" id="photofile" name="photofile">
                 </label>
-            <div class="div">
-                <label for="location">Location:</label>
-                <input class="form__item" id="location" name="location" placeholder="Please write your city">
-            </div>
-            <div class="div">
-                <fieldset>
-                    <legend>Adress</legend>
-                    <p>
-                        <label>
-                            Street name:
-                            <input class="form__item" id="streetName" name="streetName"
-                                placeholder="Please write your street name">
+                <div class="div">
+                    <label for="location">Location:</label>
+                    <input class="form__item" id="location" name="location" placeholder="Please write your city">
+                </div>
+                <div class="div__group">
+                    <fieldset>
+                        <legend>Adress</legend>
+                        <p>
+                            <label>
+                                Street name:
+                                <input class="form__item--number" id="streetName" name="streetName"
+                                    placeholder="Please write your street name">
 
+                            </label>
+                        </p>
+                        <p>
+                            <label>
+                                Number of home:
+                                <input class="form__item--number" id="numberHome" name="numberHome"
+                                    placeholder="Please write your number of home">
+
+                            </label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Favourite sport:</legend>
+                        <p>
+                            <label><input class="sport__radio" type="radio" name="sport"
+                                    value="football">Football</label>
+                        </p>
+                        <p>
+                            <label><input class="sport__radio" type="radio" name="sport"
+                                    value="football">Volleyball</label>
+                        </p>
+                        <p>
+                            <label><input class="sport__radio" type="radio" name="sport" value="football">Other</label>
+                        </p>
+
+                    </fieldset>
+                    <fieldset>
+                        <legend>Which colours do you like?(check many options)</legend>
+                        <p class="colors__item">
+                            <label><input type="checkbox" name="colors" value="orange">Orange</label>
+                        </p>
+                        <p class="colors__item">
+                            <label><input type="checkbox" name="colors" value="black">Black</label>
+                        </p>
+                        <p class="colors__item">
+                            <label><input type="checkbox" name="colors" value="red">Red</label>
+                        </p>
+                        <p class="colors__item">
+                            <label><input type="checkbox" name="colors" value="blue">Blue</label>
+                        </p>
+                        </label>
+                    </fieldset>
+                    <div class="div">
+                        <label>Foot number ;)
+                            <input class="form__item-number" type="number" id="number" name="number">
+                        </label>
+                    </div>
+                    <div class="div">
+                        <label for="phoneNumber">Your phone number:</label>
+                        <input class="form__item-number" type="tel" id="phoneNumber" name="phoneNumber"
+                            placeholder="6-number">
+                    </div>
+                    <div class="div">
+                        <label for="email">E-mail adress</label>
+                        <input class="form__item-number" type="email" id="email" name="email"
+                            placeholder="ex. john@example.pl">
+                    </div>
+                    <div class="div">
+                        <label for="range">How many time do you spent in computer games?<br />0h - 24h</label>
+                        <input class="form__item-number" type="range" id="range" name="range" min="0" max="24" step="1">
+                    </div>
+                    <p class="form__item">
+                        <label for="band">Select your band </label>
+                        <select name="band" id="band">
+                            <option value="1">Walk the moon</option>
+                            <option value="2">Radiohead</option>
+                            <option value="3">T.Love</option>
+                        </select>
+                    </p>
+                    <p>
+                        <label for="story">Your story:
+                            <textarea class="story" name="story" id="story"></textarea>
+                    
                         </label>
                     </p>
-                    <p>
-                        <label>
-                            Number of home:
-                            <input class="form__item" id="numberHome" name="numberHome"
-                                placeholder="Please write your number of home">
+                    <input type="submit" value="SEND">
 
-                        </label>
-                    </p>
-                </fieldset>
-                <fieldset>
-                    <legend>Favourite sport:</legend>
-                    <p>
-                        <label><input class="sport__radio" type="radio" name="sport" value="football">Football</label>
-                    </p>
-                    <p>
-                        <label><input class="sport__radio" type="radio" name="sport" value="football">Volleyball</label>
-                    </p>
-                    <p>
-                        <label><input class="sport__radio" type="radio" name="sport" value="football">Other</label>
-                    </p>
 
-                </fieldset>
-                <fieldset>
-                    <legend>Which colours do you like?(check many options)</legend>
-                    <p class="colors__item">
-                        <label><input type="checkbox" name="colors" value="orange">Orange</label>
-                    </p>
-                    <p class="colors__item">
-                        <label><input type="checkbox" name="colors" value="black">Black</label>
-                    </p>
-                    <p class="colors__item">
-                        <label><input type="checkbox" name="colors" value="red">Red</label>
-                    </p>
-                    <p class="colors__item">
-                        <label><input type="checkbox" name="colors" value="blue">Blue</label>
-                    </p>
-                    </label>
-                </fieldset>
-                <div class="div">
-                    <label>Foot number ;)
-                        <input class="form__item-number" type="number"id="number" name="number">
-                    </label>
-                </div>
-                <div class="div">
-                    <label for="phoneNumber">Your phone number:</label>
-                    <input class="form__item-number" type="tel" id="phoneNumber" name="phoneNumber" placeholder="6-number">
-                </div>
-                <div class="div">
-                    <label for="email">E-mail adress</label>
-                    <input class="form__item-number" type="email" id="email" name="email" placeholder="ex. john@example.pl">
-                </div>
-                <div class="div">
-                    <label for="range">How many time do you spent in computer games?<br/>0h - 24h</label>
-                    <input class="form__item-number" type="range" id="range" name="range" min="0" max="24" step="1">
-                </div>
-               
                 </div>
 
 
