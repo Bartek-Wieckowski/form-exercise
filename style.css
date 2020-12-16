@@ -15,10 +15,22 @@ body {
   justify-content: center;
   align-items: center;
 }
-.form{
-    padding: 10px;
-}
-
 h1 {
   text-align: center;
+}
+.div {
+  padding: 10px;
+}
+.form {
+}
+.form__item {
+  display: block;
+  width: 100vh;
+}
+.sport__radio {
+  margin: 15px;
+}
+.colors__item {
+  display: inline;
+  padding: 15px;
 }
